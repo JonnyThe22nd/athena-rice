@@ -1,0 +1,14 @@
+module Athena.ControlCenter
+
+
+ControlCenter 1.0 ControlCenter.qml
+
+AudioPanel 1.0 AudioPanel.qml
+
+NetworkPanel 1.0 NetworkPanel.qml
+
+BluetoothPanel 1.0 BluetoothPanel.qml
+
+MediaPanel 1.0 MediaPanel.qml
+
+QuickActions 1.0 QuickActions.qml

@@ -1,0 +1,7 @@
+module Athena.Core
+
+singleton AthenaConfig 1.0 AthenaConfig.qml
+singleton AthenaTheme 1.0 AthenaTheme.qml
+singleton Logger 1.0 Logger.qml
+singleton ServiceBus 1.0 ServiceBus.qml
+singleton Bootstrap 1.0 Bootstrap.qml

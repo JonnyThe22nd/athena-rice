@@ -1,0 +1,18 @@
+module Athena.Services
+
+
+singleton AthenaServices 1.0 AthenaServices.qml
+
+singleton ApplicationService 1.0 ApplicationService.qml
+
+singleton WindowService 1.0 WindowService.qml
+
+singleton WorkspaceService 1.0 WorkspaceService.qml
+
+singleton AudioService 1.0 AudioService.qml
+
+singleton NetworkService 1.0 NetworkService.qml
+
+singleton BluetoothService 1.0 BluetoothService.qml
+
+singleton MediaService 1.0 MediaService.qml

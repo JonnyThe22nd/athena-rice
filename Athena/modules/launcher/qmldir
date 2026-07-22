@@ -1,0 +1,10 @@
+module Athena.Launcher
+
+
+Launcher 1.0 Launcher.qml
+
+SearchField 1.0 SearchField.qml
+
+ApplicationList 1.0 ApplicationList.qml
+
+ApplicationDelegate 1.0 ApplicationDelegate.qml

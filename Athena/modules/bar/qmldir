@@ -1,0 +1,12 @@
+module Athena.Bar
+
+
+Bar 1.0 Bar.qml
+
+Clock 1.0 Clock.qml
+
+WorkspaceIndicator 1.0 WorkspaceIndicator.qml
+
+SystemStatus 1.0 SystemStatus.qml
+
+Tray 1.0 Tray.qml

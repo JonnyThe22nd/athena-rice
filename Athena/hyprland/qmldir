@@ -1,0 +1,10 @@
+module Athena.Hyprland
+
+
+singleton HyprlandIPC 1.0 HyprlandIPC.qml
+
+singleton HyprlandEventParser 1.0 HyprlandEventParser.qml
+
+singleton HyprlandCommand 1.0 HyprlandCommand.qml
+
+singleton HyprlandService 1.0 HyprlandService.qml
