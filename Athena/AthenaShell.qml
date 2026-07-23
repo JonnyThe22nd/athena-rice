@@ -1,95 +1,49 @@
 import QtQuick
-import Athena
-import Athena.ControlCenter
+
+import Athena.Bar
+import Athena.Wallpaper
 import Athena.Launcher
+import Athena.ControlCenter
 import Athena.Notifications
 import Athena.OSD
 import Athena.LockScreen
 import Athena.SystemCenter
-import Athena.Integration
 
 
 Item {
 
 
-    Component.onCompleted:
-    {
-
-        BackendConnector.connectBackend()
-
-    }
+anchors.fill: parent
 
 
-}
-
-SystemCenter {
-
-    id:
-        systemCenter
-
-}
-LockScreen {
-    id: lockScreen
-}
-
-NotificationCenter {
+Wallpaper {}
 
 
-}
+Bar {}
 
-
-
-VolumeOSD {
-
-
-}
-
-ControlCenter {
-
-    id:
-        controlCenter
-
-}
 
 Launcher {
-
-
-    id:
-        launcher
-
-
-
+id: launcher
 }
 
-Item {
+
+ControlCenter {
+id: controlCenter
+}
 
 
-    id:
-        root
+NotificationCenter {}
 
 
-
-    anchors.fill:
-        parent
+VolumeOSD {}
 
 
-
-    Desktop {
-
-        anchors.fill:
-            parent
-
-    }
+LockScreen {
+id: lockScreen
+}
 
 
+SystemCenter {}
 
-    InputManager {
-
-        anchors.fill:
-            parent
-
-
-    }
-
-
+id: systemcenter
 }

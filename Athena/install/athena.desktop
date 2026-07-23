@@ -1,0 +1,11 @@
+[Desktop Entry]
+
+Type=Application
+
+Name=Athena Shell
+
+Exec=qs -c Athena
+
+Terminal=false
+
+StartupNotify=false

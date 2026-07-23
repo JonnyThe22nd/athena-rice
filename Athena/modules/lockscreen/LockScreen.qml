@@ -3,7 +3,7 @@ import QtQuick.Controls
 import QtQuick.Layouts
 import Athena.Components
 
-Rectangle {
+Item {
 
     id: root
 
@@ -11,9 +11,15 @@ Rectangle {
 
     visible: false
 
-    color: "#CC000000"
-
     z: 1000
+
+    Rectangle {
+
+        anchors.fill: parent
+
+        color: "#CC000000"
+
+    }
 
     function lock() {
         visible = true

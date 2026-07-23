@@ -1,24 +1,35 @@
 import QtQuick
+import Athena.Components
 
-Column {
+AthenaCard {
 
-    spacing: 12
+    color:
+        AthenaTheme.surface
 
-    Rectangle {
 
-        width: 96
-        height: 96
-        radius: 48
+    Column {
 
-        color: AthenaTheme.surface
-    }
 
-    Text {
+        spacing:
+            12
 
-        text: "User"
+        Rectangle {
 
-        color: AthenaTheme.text
+            width: 96
+            height: 96
+            radius: 48
 
-        horizontalAlignment: Text.AlignHCenter
+            color: AthenaTheme.surface
+        }
+
+        Text {
+
+            text: "User"
+
+            color: AthenaTheme.text
+
+            horizontalAlignment: Text.AlignHCenter
+        }
+
     }
 }
