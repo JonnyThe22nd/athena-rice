@@ -9,7 +9,6 @@ Row {
         12
 
 
-
     AthenaButton {
 
         text:
@@ -27,7 +26,6 @@ Row {
     }
 
 
-
     AthenaButton {
 
         text:
@@ -43,7 +41,6 @@ Row {
         }
 
     }
-
 
 
     AthenaButton {

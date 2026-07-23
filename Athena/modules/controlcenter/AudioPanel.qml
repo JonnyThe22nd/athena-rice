@@ -1,8 +1,8 @@
 import QtQuick
-import QtQuick.Controls
+import Athena.Components
 
 
-Rectangle {
+AthenaCard {
 
 
     width:
@@ -58,7 +58,7 @@ Rectangle {
 
 
 
-        Slider {
+        AthenaSlider {
 
 
             width:

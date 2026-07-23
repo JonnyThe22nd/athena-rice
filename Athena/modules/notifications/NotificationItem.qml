@@ -1,7 +1,8 @@
 import QtQuick
+import Athena.Components
 
 
-Rectangle {
+AthenaPopup {
 
 
     width:

@@ -1,0 +1,12 @@
+module Athena.Components
+
+
+AthenaButton 1.0 AthenaButton.qml
+
+AthenaCard 1.0 AthenaCard.qml
+
+AthenaSlider 1.0 AthenaSlider.qml
+
+AthenaText 1.0 AthenaText.qml
+
+AthenaPopup 1.0 AthenaPopup.qml

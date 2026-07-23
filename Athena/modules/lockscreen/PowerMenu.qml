@@ -1,11 +1,11 @@
 import QtQuick
-import QtQuick.Controls
+import Athena.Components
 
 Row {
 
     spacing: 12
 
-    Button {
+    AthenaButton {
 
         text: "Shutdown"
 
@@ -16,7 +16,7 @@ Row {
         }
     }
 
-    Button {
+    AthenaButton {
 
         text: "Restart"
 
@@ -27,7 +27,7 @@ Row {
         }
     }
 
-    Button {
+    AthenaButton {
 
         text: "Suspend"
 

@@ -6,50 +6,39 @@ import QtQuick
 QtObject {
 
 
-    readonly property color background:
-        "#120d0a"
+    property color background:
+        "#101010"
 
 
-    readonly property color surface:
-        "#1d1410"
+    property color surface:
+        "#181818"
 
 
-    readonly property color surfaceLight:
-        "#302017"
+    property color surfaceLight:
+        "#242424"
 
 
-
-    readonly property color accent:
-        "#c76b3c"
-
+    property color accent:
+        "#d4af37"
 
 
-    readonly property color gold:
-        "#d6a34a"
+    property color gold:
+        "#d4af37"
 
 
-
-    readonly property color text:
-        "#f5e6c8"
-
+    property color text:
+        "#ffffff"
 
 
-    readonly property color textMuted:
-        "#9c8065"
+    property color textMuted:
+        "#888888"
 
 
-
-    readonly property color error:
-        "#c94b4b"
-
+    property int radius:
+        12
 
 
-    readonly property int radius:
-        14
-
-
-
-    readonly property int spacing:
+    property int spacing:
         12
 
 

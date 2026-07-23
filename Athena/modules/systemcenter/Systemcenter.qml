@@ -1,9 +1,9 @@
 import QtQuick
-import QtQuick.Controls
 import QtQuick.Layouts
+import Athena.Components
 
 
-Rectangle {
+AthenaCard {
 
     id: root
 
