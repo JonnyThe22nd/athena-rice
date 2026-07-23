@@ -13,37 +13,55 @@ import Athena.SystemCenter
 Item {
 
 
-anchors.fill: parent
+	anchors.fill:
+		parent
 
 
-Wallpaper {}
+	Wallpaper {
+	}
 
 
-Bar {}
+	Bar {
+	}
 
 
-Launcher {
-id: launcher
-}
+	Launcher {
+
+		id:
+			launcher
+
+	}
 
 
-ControlCenter {
-id: controlCenter
-}
+	ControlCenter {
+
+		id:
+			controlCenter
+
+	}
 
 
-NotificationCenter {}
+	NotificationCenter {
+	}
 
 
-VolumeOSD {}
+	VolumeOSD {
+	}
 
 
-LockScreen {
-id: lockScreen
-}
+	LockScreen {
+
+		id:
+			lockScreen
+
+	}
 
 
-SystemCenter {}
+	SystemCenter {
 
-id: systemcenter
+		id:
+			systemcenter
+
+	}
+
 }
