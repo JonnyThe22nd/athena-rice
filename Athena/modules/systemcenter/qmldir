@@ -1,0 +1,16 @@
+module Athena.SystemCenter
+
+
+SystemCenter 1.0 SystemCenter.qml
+
+ResourcePanel 1.0 ResourcePanel.qml
+
+CpuMonitor 1.0 CpuMonitor.qml
+
+MemoryMonitor 1.0 MemoryMonitor.qml
+
+DiskMonitor 1.0 DiskMonitor.qml
+
+SessionInfo 1.0 SessionInfo.qml
+
+PowerActions 1.0 PowerActions.qml

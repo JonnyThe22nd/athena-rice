@@ -1,0 +1,5 @@
+module Athena.Wallpaper
+
+Wallpaper 1.0 Wallpaper.qml
+WallpaperManager 1.0 WallpaperManager.qml
+WallpaperEffects 1.0 WallpaperEffects.qml

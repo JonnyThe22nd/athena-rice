@@ -4,7 +4,33 @@ import Athena.ControlCenter
 import Athena.Launcher
 import Athena.Notifications
 import Athena.OSD
+import Athena.LockScreen
+import Athena.SystemCenter
+import Athena.Integration
 
+
+Item {
+
+
+    Component.onCompleted:
+    {
+
+        BackendConnector.connectBackend()
+
+    }
+
+
+}
+
+SystemCenter {
+
+    id:
+        systemCenter
+
+}
+LockScreen {
+    id: lockScreen
+}
 
 NotificationCenter {
 

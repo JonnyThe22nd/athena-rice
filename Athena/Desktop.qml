@@ -1,5 +1,10 @@
 import QtQuick
 
+Wallpaper {
+
+    anchors.fill: parent
+
+}
 
 Item {
 

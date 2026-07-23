@@ -1,0 +1,7 @@
+module Athena.LockScreen
+
+LockScreen 1.0 LockScreen.qml
+LockClock 1.0 LockClock.qml
+UserCard 1.0 UserCard.qml
+PasswordField 1.0 PasswordField.qml
+PowerMenu 1.0 PowerMenu.qml

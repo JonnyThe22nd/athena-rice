@@ -6,40 +6,98 @@ import QtQuick
 QtObject {
 
 
+    // UI Meldungen
+
     signal notification(
         string title,
         string message
     )
 
 
+    // Hyprland
+
     signal workspaceChanged(
         int workspace
     )
 
 
-    signal windowChanged()
+    signal windowChanged(
+        string title
+    )
 
 
+    // Audio
 
     signal volumeChanged(
         int value
     )
 
 
+    signal mutedChanged(
+        bool muted
+    )
+
+
+    // Netzwerk
 
     signal networkChanged(
         string network
     )
 
 
+    signal wifiEnabledChanged(
+        bool enabled
+    )
+
+
+    // Bluetooth
 
     signal bluetoothChanged(
         string device
     )
 
 
+    signal bluetoothEnabledChanged(
+        bool enabled
+    )
 
-    function sendNotification(
+
+    // Media
+
+    signal mediaChanged(
+        string title,
+        string artist,
+        bool playing
+    )
+
+
+    // System
+
+    signal systemCpuChanged(
+        int value
+    )
+
+
+    signal memoryChanged(
+        int value
+    )
+
+
+    signal diskChanged(
+        int value
+    )
+
+
+    // Backend Status
+
+    signal backendConnected()
+
+
+    signal backendDisconnected()
+
+
+
+    function notify(
         title,
         message
     )
@@ -48,32 +106,6 @@ QtObject {
         notification(
             title,
             message
-        )
-
-    }
-
-
-
-    function updateWorkspace(
-        id
-    )
-    {
-
-        workspaceChanged(
-            id
-        )
-
-    }
-
-
-
-    function updateVolume(
-        value
-    )
-    {
-
-        volumeChanged(
-            value
         )
 
     }
