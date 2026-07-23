@@ -1,6 +1,29 @@
 import QtQuick
-import "modules/launcher"
+import Athena
+import Athena.ControlCenter
+import Athena.Launcher
+import Athena.Notifications
+import Athena.OSD
 
+
+NotificationCenter {
+
+
+}
+
+
+
+VolumeOSD {
+
+
+}
+
+ControlCenter {
+
+    id:
+        controlCenter
+
+}
 
 Launcher {
 

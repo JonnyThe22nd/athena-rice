@@ -1,7 +1,7 @@
 import QtQuick
 
 signal launcherRequested()
-
+signal controlCenterRequested()
 
 
 Keys.onPressed:
@@ -17,6 +17,15 @@ Keys.onPressed:
 
         launcherRequested()
 
+    }
+
+    if(
+    event.key === Qt.Key_C
+    &&
+    event.modifiers & Qt.MetaModifier
+    )
+    {
+        controlCenterRequested()
     }
 
 }

@@ -1,7 +1,6 @@
 import QtQuick
 import Quickshell
-
-import "."
+import Athena
 
 
 ShellRoot {
