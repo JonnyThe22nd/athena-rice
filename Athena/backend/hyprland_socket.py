@@ -15,19 +15,23 @@ class HyprlandSocket:
             "HYPRLAND_INSTANCE_SIGNATURE"
         )
 
-        self.path = (
-            runtime
-            +
-            "/hypr/"
-            +
-            signature
-            +
-            "/.socket2.sock"
-        )
+        self.path = None
+        if runtime and signature:
+            self.path = (
+                runtime
+                +
+                "/hypr/"
+                +
+                signature
+                +
+                "/.socket2.sock"
+            )
 
 
 
     def listen(self, callback):
+        if not self.path:
+            return
 
         sock = socket.socket(
             socket.AF_UNIX,

@@ -1,6 +1,7 @@
 pragma Singleton
 
 import QtQuick
+import Athena
 
 
 QtObject {
@@ -20,31 +21,6 @@ QtObject {
     signal commandReceived(
         var data
     )
-
-    function handle(message)
-    {
-
-        HyprlandBridge.process(
-            message
-        )
-
-
-        switch(message.type)
-        {
-
-
-        case "volume":
-
-            ServiceBus.volumeChanged(
-                message.value
-            )
-
-            break
-
-
-        }
-
-    }
 
     function connectBackend()
     {
@@ -105,6 +81,10 @@ QtObject {
         message
     )
     {
+
+        HyprlandBridge.process(
+            message
+        )
 
         switch(
             message.type

@@ -1,6 +1,7 @@
 import QtQuick
 import QtQuick.Layouts
 import Athena.Components
+import Athena
 
 
 AthenaCard {

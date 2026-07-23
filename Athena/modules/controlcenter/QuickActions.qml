@@ -1,5 +1,6 @@
 import QtQuick
 import Athena.Components
+import Athena
 
 
 Row {
