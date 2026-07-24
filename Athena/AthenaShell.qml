@@ -1,13 +1,13 @@
 import QtQuick
 
-import Athena.Bar
-import Athena.Wallpaper
-import Athena.Launcher
-import Athena.ControlCenter
-import Athena.Notifications
-import Athena.OSD
-import Athena.LockScreen
-import Athena.SystemCenter
+import "modules/bar"
+import "modules/wallpaper"
+import "modules/launcher"
+import "modules/controlcenter"
+import "modules/notifications"
+import "modules/osd"
+import "modules/lockscreen"
+import "modules/systemcenter"
 
 
 Item {

@@ -1,5 +1,5 @@
 import QtQuick
-import Athena.Components
+import "../../components"
 
 
 AthenaPopup {
