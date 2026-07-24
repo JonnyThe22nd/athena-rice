@@ -1,6 +1,7 @@
 pragma Singleton
 
 import QtQuick
+import Athena
 
 
 QtObject {
@@ -34,7 +35,7 @@ QtObject {
 
 
 
-        ServiceBus.updateVolume(
+        ServiceBus.volumeChanged(
             volume
         )
 

@@ -3,9 +3,8 @@ module Athena.Services
 
 singleton AthenaServices 1.0 AthenaServices.qml
 
-singleton ApplicationService 1.0 ApplicationService.qml
-
-singleton WindowService 1.0 WindowService.qml
+singleton ApplicationService 1.0 WindowService.qml
+singleton WindowService 1.0 ApplicationService.qml
 
 singleton WorkspaceService 1.0 WorkspaceService.qml
 
