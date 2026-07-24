@@ -1,5 +1,5 @@
 import QtQuick
-import Athena
+import "../.."
 
 
 Item {

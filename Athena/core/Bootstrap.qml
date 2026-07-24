@@ -1,7 +1,7 @@
 pragma Singleton
 
 import QtQuick
-import Athena
+import ".."
 
 
 QtObject {
