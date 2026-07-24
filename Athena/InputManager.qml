@@ -1,4 +1,5 @@
 import QtQuick
+import Athena
 
 signal launcherRequested()
 signal controlCenterRequested()

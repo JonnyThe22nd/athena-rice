@@ -1,6 +1,7 @@
 import socket
 import json
 import threading
+import os
 
 
 class SocketServer:
@@ -15,7 +16,8 @@ class SocketServer:
 
 
     def start(self):
-
+        if os.path.exists(self.path):
+            os.unlink(self.path)
         server = socket.socket(
             socket.AF_UNIX,
             socket.SOCK_STREAM
@@ -78,8 +80,12 @@ class SocketServer:
         ).encode()
 
 
+        disconnected = []
         for client in self.clients:
-
-            client.send(
-                payload
-            )
+            try:
+                client.send(payload)
+            except OSError:
+                disconnected.append(client)
+        for client in disconnected:
+            if client in self.clients:
+                self.clients.remove(client)

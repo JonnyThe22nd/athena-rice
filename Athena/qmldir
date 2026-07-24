@@ -4,7 +4,7 @@ AthenaShell 1.0 AthenaShell.qml
 Desktop 1.0 Desktop.qml
 InputManager 1.0 InputManager.qml
 
-singleton AthenaConfig 1.0 core/AthenaConfig.qml
+singleton AthenaConfig 1.0 AthenaConfig.qml
 singleton AthenaTheme 1.0 core/AthenaTheme.qml
 singleton Logger 1.0 core/Logger.qml
 singleton ServiceBus 1.0 core/ServiceBus.qml
